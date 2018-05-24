@@ -1,4 +1,4 @@
-<a href="http://{{ sponsor.attributes.website }}" target="_blank">
+<a href="{{ sponsor.attributes.website }}" target="_blank">
   <img *ngIf="sponsor.attributes.featured == true" src="{{ sponsor.attributes.logo_thumbnail }}" alt="{{ sponsor.attributes.name }}" width="360px">
   <img *ngIf="sponsor.attributes.featured == false" src="{{ sponsor.attributes.logo_thumbnail }}" alt="{{ sponsor.attributes.name }}" width="180px">    
 </a>
